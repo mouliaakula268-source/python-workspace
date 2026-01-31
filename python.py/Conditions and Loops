@@ -1,0 +1,44 @@
+# if - else (Decision making) if - else is used when the program needs to make a choice
+
+age = 18
+if age >= 18:
+   print("you are an adult")
+else:
+   print("You are a minor")
+
+#elif used for to check one more condition
+
+marks = 85
+if marks >= 85:
+   print("Excellent")
+elif marks >= 75:
+   print("Good")
+elif marks >= 65:
+   print("Average")
+else:
+   print("Need improvement")
+
+# for loop
+#repeat a fixed number of times
+
+for i in range(5):
+   print(i)   
+
+# while loop
+# Repeat untill condition false
+i = 1
+while i <= 5:
+   print(i)
+   i += 1
+
+# Break stop the loop immediately
+for i in range(10):
+   if i == 5:
+      break
+   print(i)
+
+# Continue (skip current iteration)
+for i in range(5):
+    if i == 3:
+      continue
+    print(i)
